@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/templesites/tupperwares/static/css/main.cd58f987.css",
+    "main.js": "/templesites/tupperwares/static/js/main.b7551acf.js",
+    "static/js/787.8c839cc2.chunk.js": "/templesites/tupperwares/static/js/787.8c839cc2.chunk.js",
+    "index.html": "/templesites/tupperwares/index.html",
+    "main.cd58f987.css.map": "/templesites/tupperwares/static/css/main.cd58f987.css.map",
+    "main.b7551acf.js.map": "/templesites/tupperwares/static/js/main.b7551acf.js.map",
+    "787.8c839cc2.chunk.js.map": "/templesites/tupperwares/static/js/787.8c839cc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd58f987.css",
+    "static/js/main.b7551acf.js"
+  ]
+}
