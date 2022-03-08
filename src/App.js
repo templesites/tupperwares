@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Card, Col, Container, Modal, Nav, Navbar, Row } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
+import "@google/model-viewer/dist/model-viewer";
+
 import './App.css';
 
 const App = () => {
@@ -78,10 +79,8 @@ const App = () => {
           <Modal.Title>Demo sample</Modal.Title>
         </Modal.Header>
         <Modal.Body>AR video
-        <ReactPlayer
-        url="https://www.youtube.com/watch?v=mwAgF-Ku4eM"
-        controls={true}
-      />
+        
+      <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
       <iframe id="view360Iframe" width="100%" scrolling="0" src="https://sketchfab.com/models/8d913bda48f84217902e6829982c494f/embed?ui_infos=0&amp;ui_watermark=0&amp;ui_help=0&amp;ui_settings=0&amp;ui_inspector=0&amp;ui_annotations=0&amp;ui_stop=0&amp;ui_vr=0&amp;preload=1&amp;autostart=1&amp;ui_hint=2&amp;autospin=0.2">
 
 </iframe>

@@ -7,9 +7,9 @@ const Header = () => {
         <div className="App">
         <Navbar bg="primary" variant="dark">
             <Container>
-            <Navbar.Brand href="/">Demo</Navbar.Brand>
+            <Navbar.Brand href="/tupperwares">Demo</Navbar.Brand>
                 <Nav className="me-auto">
-                <Nav.Link href="/item">Item</Nav.Link>
+                <Nav.Link href="/tupperwares/item">Item</Nav.Link>
             </Nav>
             </Container>
         </Navbar>
