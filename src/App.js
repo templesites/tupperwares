@@ -119,7 +119,11 @@ const App = () => {
         </Modal.Header>
         <Modal.Body>AR video
         <center>
-        <model-viewer ar ar-modes="webxr scene-viewer quick-look" camera-controls src={Dmodel}   alt="A 3D model of an astronaut">
+        <model-viewer ar ar-modes="webxr scene-viewer quick-look" camera-controls src={Dmodel}   
+        alt="A 3D model">
+          <button slot="ar-button" style={{backgroundColor: 'white', borderRadius: '4px', 
+          border: 'none', position: 'absolute', top: '16px', right: '16px'}}
+          >👋 Activate AR</button>
         </model-viewer>
         </center>
         </Modal.Body>
