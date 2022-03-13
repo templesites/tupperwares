@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tupperwares/static/css/main.cd58f987.css",
-    "main.js": "/tupperwares/static/js/main.4826af16.js",
+    "main.js": "/tupperwares/static/js/main.de1e6bab.js",
     "static/js/787.8c839cc2.chunk.js": "/tupperwares/static/js/787.8c839cc2.chunk.js",
     "static/media/chair2.glb": "/tupperwares/static/media/chair2.e6238cd581832f60c5c0.glb",
     "static/media/chair3.glb": "/tupperwares/static/media/chair3.4be44b55083297c62e44.glb",
@@ -17,11 +17,11 @@
     "static/media/chair5.jpg": "/tupperwares/static/media/chair5.0fc2269d4858c8a288b8.jpg",
     "index.html": "/tupperwares/index.html",
     "main.cd58f987.css.map": "/tupperwares/static/css/main.cd58f987.css.map",
-    "main.4826af16.js.map": "/tupperwares/static/js/main.4826af16.js.map",
+    "main.de1e6bab.js.map": "/tupperwares/static/js/main.de1e6bab.js.map",
     "787.8c839cc2.chunk.js.map": "/tupperwares/static/js/787.8c839cc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd58f987.css",
-    "static/js/main.4826af16.js"
+    "static/js/main.de1e6bab.js"
   ]
 }
