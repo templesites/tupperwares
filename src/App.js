@@ -1,74 +1,113 @@
 import React, { useState } from 'react';
 import { Button, Card, Col, Container, Modal, Nav, Navbar, Row } from 'react-bootstrap';
 import "@google/model-viewer/dist/model-viewer";
-
+import chair1 from './assets/chair1.jpg'
+import chair1d from './assets/chair1.glb'
+import chair2 from './assets/chair2.jpg'
+import chair2d from './assets/chair2.glb'
+import chair3 from './assets/chair3.jpg'
+import chair3d from './assets/chair3.glb'
+import chair4 from './assets/chair4.jpg'
+import chair4d from './assets/chair4.glb'
+import chair5 from './assets/chair5.jpg'
+import chair5d from './assets/chair5.glb'
+import chair6 from './assets/chair6.jpg'
+import chair6d from './assets/chair6.glb'
 import './App.css';
 
 const App = () => {
 
   const [show, setShow] = useState(false);
+  const [Dmodel, setDModel] = useState(chair6d);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = (model) => {
+    setShow(true);
+    setDModel(model);
+  }
   
   return (
     <div className="App">
-      <Row xs={1} md={4} className="g-4">
+      <Row xs={1} md={3} className="g-3">
         <Col>
           <Card border='white' style={{ width: '90%' }}>
             <a href='/tupperwares/item'>
-              <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0550/5912/0300/products/sllim-lunch-containers_800x.jpg?v=1640027481" />
+              <Card.Img variant="top" src={chair1} />
             </a>
             <Card.Body>
               <Card.Title>SLIM LUNCH CONTAINERS</Card.Title>
               <Card.Text>
-                Includes 2 1/2-cup/590 mL divided containers with two compartments and 4-oz./120 mL small liquid-tight containers to fit inside. Set of two.
+              Great for everyday use or for entertaining. Available while supplies last.
               </Card.Text>
-              <Button variant="primary" onClick={handleShow}>3D</Button>{' '}
-              <Button variant="success" onClick={handleShow}>AR page</Button>
+              <Button variant="primary" onClick={() => handleShow(chair1d)}>3D</Button>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
           <a href='/tupperwares/item'>
-            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0550/5912/0300/products/clear-impressions-bowl-set-2102-5011_1200x1200.jpg?v=1639687497" />
+            <Card.Img variant="top" src={chair2} />
             </a><Card.Body>
               <Card.Title>CLEAR IMPRESSIONS SERVING BOWL SET</Card.Title>
               <Card.Text>
-                Includes one 10 1/2-cup/2.5 L Large Bowl and one 18-cup/4.3 L Large Deep Bowl with seals.
+              Great for everyday use or for entertaining. Available while supplies last.
               </Card.Text>
-              <Button variant="primary" onClick={handleShow}>3D</Button>{' '}
-              <Button variant="success" onClick={handleShow}>AR page</Button>
+              <Button variant="primary" onClick={() => handleShow(chair2d)}>3D</Button>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
           <a href='/tupperwares/item'>
-            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0550/5912/0300/products/pitcher-and-citrus-keepers-set_800x.jpg?v=1639687049" />
+            <Card.Img variant="top" src={chair3} />
             </a><Card.Body>
               <Card.Title>PITCHER AND CITRUS KEEPERS SET</Card.Title>
               <Card.Text>
-                Save over 40% with this summer set! Includes set of three Citrus Keepers and Tupperware® Impressions 2-Qt./2 L Pitcher. Great for everyday use or for entertaining. Available while supplies last. Dishwasher safe. BPA-Free.
+                Great for everyday use or for entertaining. Available while supplies last.
               </Card.Text>
-              <Button variant="primary" onClick={handleShow}>3D</Button>{' '}
-              <Button variant="success" onClick={handleShow}>AR page</Button>
+              <Button variant="primary" onClick={() => handleShow(chair3d)}>3D</Button>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
           <a href='/tupperwares/item'>
-            <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0550/5912/0300/products/costa-del-sol-10-cup_800x.jpg?v=1639592900" />
+            <Card.Img variant="top" src={chair4} />
             </a>
             <Card.Body>
               <Card.Title>COSTA DEL SOL 10 1/2-CUP/2.5 L BOWL</Card.Title>
               <Card.Text>
-                Serve in festive summer style. Includes 10 1/2-cup/2.5 L Bowl with liquid-tight seal. Available while supplies last. Artwork not covered by Limited Lifetime Warranty. BPA-Free.
+                Artwork not covered by Limited Lifetime Warranty.
+                Great for everyday use or for entertaining.
               </Card.Text>
-              <Button variant="primary" onClick={handleShow}>3D</Button>{' '}
-              <Button variant="success" onClick={handleShow}>AR page</Button>
+              <Button variant="primary" onClick={() => handleShow(chair4d)}>3D</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card border='white' style={{ width: '90%' }}>
+            <a href='/tupperwares/item'>
+              <Card.Img variant="top" src={chair5} />
+            </a>
+            <Card.Body>
+              <Card.Title>SLIM LUNCH CONTAINERS</Card.Title>
+              <Card.Text>
+              Great for everyday use or for entertaining. Available while supplies last.
+              </Card.Text>
+              <Button variant="primary" onClick={() => handleShow(chair5d)}>3D</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card border='white' style={{ width: '90%' }}>
+          <a href='/tupperwares/item'>
+            <Card.Img variant="top" src={chair6} />
+            </a><Card.Body>
+              <Card.Title>CLEAR IMPRESSIONS SERVING BOWL SET</Card.Title>
+              <Card.Text>
+              Great for everyday use or for entertaining. Available while supplies last.
+              </Card.Text>
+              <Button variant="primary" onClick={() => handleShow(chair6d)}>3D</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -79,11 +118,10 @@ const App = () => {
           <Modal.Title>Demo sample</Modal.Title>
         </Modal.Header>
         <Modal.Body>AR video
-        
-      <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
-      <iframe id="view360Iframe" width="100%" scrolling="0" src="https://sketchfab.com/models/8d913bda48f84217902e6829982c494f/embed?ui_infos=0&amp;ui_watermark=0&amp;ui_help=0&amp;ui_settings=0&amp;ui_inspector=0&amp;ui_annotations=0&amp;ui_stop=0&amp;ui_vr=0&amp;preload=1&amp;autostart=1&amp;ui_hint=2&amp;autospin=0.2">
-
-</iframe>
+        <center>
+        <model-viewer ar ar-modes="webxr scene-viewer quick-look" camera-controls src={Dmodel}   alt="A 3D model of an astronaut">
+        </model-viewer>
+        </center>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
