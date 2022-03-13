@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/tupperwares/static/css/main.cd58f987.css",
-    "main.js": "/tupperwares/static/js/main.958b917e.js",
+    "main.js": "/tupperwares/static/js/main.527706ae.js",
     "static/js/787.8c839cc2.chunk.js": "/tupperwares/static/js/787.8c839cc2.chunk.js",
+    "static/media/chair2.glb": "/tupperwares/static/media/chair2.e6238cd581832f60c5c0.glb",
+    "static/media/chair3.glb": "/tupperwares/static/media/chair3.4be44b55083297c62e44.glb",
+    "static/media/chair1.glb": "/tupperwares/static/media/chair1.59791f2d52e820827edd.glb",
+    "static/media/chair5.glb": "/tupperwares/static/media/chair5.bfaba697d3f70dc4641a.glb",
+    "static/media/chair4.glb": "/tupperwares/static/media/chair4.5161a43bcd2913c64883.glb",
+    "static/media/chair6.glb": "/tupperwares/static/media/chair6.93aae5103120ef298b33.glb",
+    "static/media/chair4.jpg": "/tupperwares/static/media/chair4.cd4bcf85a45c9ed060e9.jpg",
+    "static/media/chair6.jpg": "/tupperwares/static/media/chair6.0376501f94591f3a929c.jpg",
+    "static/media/chair1.jpg": "/tupperwares/static/media/chair1.fd417d2fb7f55686aab5.jpg",
+    "static/media/chair3.jpg": "/tupperwares/static/media/chair3.2d3ad6fbd3ca29b6353a.jpg",
+    "static/media/chair2.jpg": "/tupperwares/static/media/chair2.ea8b1c19f88f0f13814f.jpg",
+    "static/media/chair5.jpg": "/tupperwares/static/media/chair5.0fc2269d4858c8a288b8.jpg",
     "index.html": "/tupperwares/index.html",
     "main.cd58f987.css.map": "/tupperwares/static/css/main.cd58f987.css.map",
-    "main.958b917e.js.map": "/tupperwares/static/js/main.958b917e.js.map",
+    "main.527706ae.js.map": "/tupperwares/static/js/main.527706ae.js.map",
     "787.8c839cc2.chunk.js.map": "/tupperwares/static/js/787.8c839cc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd58f987.css",
-    "static/js/main.958b917e.js"
+    "static/js/main.527706ae.js"
   ]
 }
