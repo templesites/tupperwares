@@ -31,7 +31,7 @@ const App = () => {
       <Row xs={1} md={3} className="g-3">
         <Col>
           <Card border='white' style={{ width: '90%' }}>
-            <a href='/tupperwares/item'>
+            <a href='/tupperwares/'>
               <Card.Img variant="top" src={chair1} />
             </a>
             <Card.Body>
@@ -45,7 +45,7 @@ const App = () => {
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
-          <a href='/tupperwares/item'>
+          <a href='/tupperwares/'>
             <Card.Img variant="top" src={chair2} />
             </a><Card.Body>
               <Card.Title>CLEAR IMPRESSIONS SERVING BOWL SET</Card.Title>
@@ -58,7 +58,7 @@ const App = () => {
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
-          <a href='/tupperwares/item'>
+          <a href='/tupperwares/'>
             <Card.Img variant="top" src={chair3} />
             </a><Card.Body>
               <Card.Title>PITCHER AND CITRUS KEEPERS SET</Card.Title>
@@ -71,7 +71,7 @@ const App = () => {
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
-          <a href='/tupperwares/item'>
+          <a href='/tupperwares/'>
             <Card.Img variant="top" src={chair4} />
             </a>
             <Card.Body>
@@ -86,7 +86,7 @@ const App = () => {
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
-            <a href='/tupperwares/item'>
+            <a href='/tupperwares/'>
               <Card.Img variant="top" src={chair5} />
             </a>
             <Card.Body>
@@ -100,7 +100,7 @@ const App = () => {
         </Col>
         <Col>
           <Card border='white' style={{ width: '90%' }}>
-          <a href='/tupperwares/item'>
+          <a href='/tupperwares/'>
             <Card.Img variant="top" src={chair6} />
             </a><Card.Body>
               <Card.Title>CLEAR IMPRESSIONS SERVING BOWL SET</Card.Title>
